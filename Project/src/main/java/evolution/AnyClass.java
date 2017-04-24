@@ -9,9 +9,11 @@ public class AnyClass {
 		if(logger.isDebugEnabled()){
 		    logger.debug("Debug is Enabled.");
 		}
+		// Trace < Debug < Info < Warn < Error < Fatal
 		logger.trace("Trace");
-		logger.info("Info");
 		logger.debug("Debug");
+		logger.info("Info");
+		logger.warn("Warn");
 		logger.error("Error");
 		logger.fatal("Fatal");
 	}
